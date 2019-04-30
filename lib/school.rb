@@ -11,5 +11,6 @@ def initialize(roster)
 end
 
 def add_student(student, grade)
-  @roster << 
+  
+  @roster[grade] << student
  end
