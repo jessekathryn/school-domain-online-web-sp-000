@@ -12,6 +12,7 @@ def initialize(roster)
 
 def add_student(student, grade)
   roster[grade] ||= []
+ if grade.include?(10)
   @roster[grade] << student
  end
 end
