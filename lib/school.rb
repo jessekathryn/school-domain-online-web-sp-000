@@ -8,7 +8,7 @@ ROSTER = []
 def initialize(roster)
   @roster = ROSTER
  end
-end
+
 
 def add_student(student, grade)
   roster[grade] ||= []
