@@ -11,5 +11,5 @@ def initialize(roster)
 end
 
 def add_student(student)
-  ROSTER << 
+  ROSTER << student.add
  end
